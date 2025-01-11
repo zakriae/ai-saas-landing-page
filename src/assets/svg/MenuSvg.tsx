@@ -1,7 +1,7 @@
-const MenuSvg = ({ openNavigation }) => {
+const MenuSvg = ({ openNavigation }: {openNavigation: boolean}) => {
   return (
     <svg
-      className="overflow-visible"
+      className="overflow-visible "
       width="20"
       height="12"
       viewBox="0 0 20 12"
